@@ -1,0 +1,14 @@
+<%= form_for @product, html:{class:"form-horizontal"} do |p| %>
+
+<%= p.label :name %>
+<%= p.text_field :name %>
+
+<%= p.label :description %>
+<%= p.text_field :description %>
+
+<%= p.label :price %>
+<%= p.number_field :price %>
+
+<%= p.submit %>
+
+<% end %>
